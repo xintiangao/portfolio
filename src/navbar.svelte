@@ -1,22 +1,87 @@
 <script>
     // import { goto } from '$app/navigation';
   
+  let currentTheme = "retro";
 
-    let currentTheme = "retro";
-
-    function toggleTheme() {
-    currentTheme = currentTheme === "retro" ? "dracula" : "retro";
-    document.documentElement.setAttribute("data-theme", currentTheme);
+  function toggleTheme() {
+  currentTheme = currentTheme === "retro" ? "dracula" : "retro";
+  document.documentElement.setAttribute("data-theme", currentTheme);
   }
-    function scrollToMe() {
-      const meSection = document.querySelector('#section1');
-      meSection.scrollIntoView({behavior:'smooth'});
-    }
+
+  function scrollToMe() {
+    const meSection = document.querySelector('#buffer1');
+    const bufferRect = meSection.getBoundingClientRect();
+
+    const bufferTop = bufferRect.top + window.pageYOffset;
+    const bufferHeight = bufferRect.height;
+
+    const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    const offset = bufferTop - (viewportHeight / 2) + (bufferHeight / 2);
+
+    window.scrollTo({
+      top: offset,
+      behavior: 'smooth'
+    });
+}
+
+function scrollToExperience() {
+    const bufferSection = document.querySelector('#buffer2');
+    const bufferRect = bufferSection.getBoundingClientRect();
+    const bufferTop = bufferRect.top + window.pageYOffset;
+
+    window.scrollTo({
+    top: bufferTop,
+    behavior: 'smooth'
+    });
+}
+
+function scrollToHobbies() {
+    const bufferSection = document.querySelector('#buffer3');
+    const bufferRect = bufferSection.getBoundingClientRect();
+    const bufferTop = bufferRect.top + window.pageYOffset;
+
+    window.scrollTo({
+    top: bufferTop,
+    behavior: 'smooth'
+    });
+}
+// import { onMount } from 'svelte';
+
+// function moveImageWithCursor(containerId, imageId) {
+//   const container = document.getElementById(containerId);
+//   const image = document.getElementById(imageId);
+
+//   function handleMouseMove(event) {
+//     const x = event.clientX;
+//     const y = event.clientY;
+
+//     const containerRect = container.getBoundingClientRect();
+//     const containerCenterX = containerRect.left + containerRect.width / 2;
+//     const containerCenterY = containerRect.top + containerRect.height / 2;
+
+//     const moveX = (containerCenterX - x) / containerCenterX * 10;
+//     const moveY = (containerCenterY - y) / containerCenterY * 10;
+
+//     image.style.transform = `translate(${moveX}px, ${moveY}px)`;
+//   }
+
+//   onMount(() => {
+//     document.addEventListener('mousemove', handleMouseMove);
+
+//     return () => {
+//       document.removeEventListener('mousemove', handleMouseMove);
+//     };
+//   });
+// }
+
+// moveImageWithCursor('up-container', 'up-image');
+// moveImageWithCursor('person-container', 'person-image');
+
 </script>
 
 <container>
   <nav>
-    <div class="name text-primary flex align-middle justify-center">
+    <div class="name text-primary flex align-middle justify-center animate__animated animate__fadeInUp">
       <a href="/">
         <button>Xintian Gao</button>
       </a>
@@ -30,15 +95,11 @@
       </div>
 
     <div class="guide text-primary flex align-middle justify-center">
-      <a href="section2">
-        <button>Experience</button>
-      </a>
+        <button on:click={scrollToExperience}>Experience</button>
     </div>
 
     <div class="guide text-primary flex align-middle justify-center">
-      <a href="section3">
-        <button>Hobbies</button>
-      </a>
+        <button on:click={scrollToHobbies}>Hobbies</button>
     </div>
 
     <div class="guide text-primary flex align-middle justify-center">
@@ -68,7 +129,7 @@
 
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
   container {
@@ -93,8 +154,8 @@
     align-items: center;
     gap: 1rem;
     font-size: 70px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-family: "Playfair Display", sans-serif;
     padding: 7px;
   }
 
@@ -124,7 +185,7 @@
     padding: 7px;
     font-size: 40px;
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+    font-family: "Playfair Display", sans-serif;
   }
 
   .guide:hover {
