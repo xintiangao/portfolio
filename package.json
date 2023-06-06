@@ -28,6 +28,8 @@
 		"@tailwindcss/typography": "^0.5.9",
 		"animate.css": "^4.1.1",
 		"aos": "^2.3.4",
-		"daisyui": "^2.52.0"
+		"css.gg": "^2.0.0",
+		"daisyui": "^2.52.0",
+		"font-awesome": "^4.7.0"
 	}
 }

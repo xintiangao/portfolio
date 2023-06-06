@@ -8,10 +8,14 @@
   
   <style>
  @import "../utils/styles.css";
+ @import url('https://css.gg/css?=|arrow-up-r');
   </style>
 
   <Navbar />
-  
+  <a href="/" class="scroll-to-top">
+    <span class="gg-arrow-up-r "></span>
+  </a>
+
 
   <section class="parallax-container1"></section>
 
@@ -29,39 +33,41 @@
     </div>
     
     <div class="about-border" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine"> </div>
-    <div class="about-img-div" >
+    <div class="about-img-div">
       <img src="/src/photos/about.jpg" alt="about me">
     </div>
 
   </section>
   
   <!--UP Pictures and parallax container2-->
-  <section class="parallax-container2 absolute">
- 
-    <div class="w-3/12 relative left-1/3 top-10" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-      <img src="/src/photos/UPBirds.jpg" alt="birds" />
-    </div>
-    
-    <div class="w-3/12 relative left-24 -top-80" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-      <img src="/src/photos/UPperson.jpg" alt="person"/>
-    </div>
+  <section class="parallax-container2">
+    <div class="up_container flex align-start">
 
-    <div class="w-3/12 relative left-1/3  -top-96 z-10" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-      <img src="/src/photos/UPPicturedRock.jpg" alt="rock" />
-    </div>
+      <div class="w-11/12 absolute left-1/3 -bottom-2/4 z-10 up_item" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <img src="/src/photos/UPBirds.jpg" alt="birds" />
+      </div>
+      
+      <div class="w-11/12 absolute top-60   up_item" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <img src="/src/photos/uPPerson.jpg" alt="person"/>
+      </div>
 
-    <div class="w-4/12 relative left-2/3 -top-3/4" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-      <img src="/src/photos/UPTrees.jpg" alt="trees"/>
-    </div>
+      <div class="w-11/12 absolute top-14 up_item" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <img src="/src/photos/UPPicturedRock.jpg" alt="rock" />
+      </div>
 
-    <div class="w-5/12 relative left-3.5 -top-2/3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-      <img src="/src/photos/UPRoad.jpg" alt="road"/>
-    </div>
+      <div class="w-11/12 absolute top-1/3 up_item" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <img src="/src/photos/UPTrees.jpg" alt="trees"/>
+      </div>
 
-    <div class="w-5/12 relative -right-2/4  bottom-full" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-      <img src="/src/photos/UPCar.JPG" alt="car"/>
-    </div>
+      <div class="w-10/12 absolute left-16 top-1/3 up_item" data-aos="zoom-in-up" data-aos-offset="350" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <img src="/src/photos/treesFilmUP.jpg" alt="trees"/>
+      </div>
 
+      <div class="w-11/12 absolute right-32 top-7 up_item" data-aos="zoom-in-up" data-aos-offset="400" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+        <img src="/src/photos/birdsGroundUP.JPG" alt="bird"/>
+      </div>
+
+    </div>
   </section>
 
   <!-- experience  -->
@@ -119,9 +125,364 @@
 
 <!-- ./experience -->
 
-<section class="parallax-container3"></section>
+<section class="parallax-container3 relative"autoplay muted loop>
+  <video class="video-background saturate-120 contrast-120" autoplay muted loop>
+    <source src="/src/photos/cola.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
 
+<!--Hobbies-->
 <section id="buffer3" class="buffer3">
   <div id="hobbies" class="text-primary">
+     <!-- Hobbies -->
+    <h1>My <br /> Hobbies</h1> 
+    <!-- main container -->
+    <div class="flex content-center justify-center align-middle">
+      <div class="hobbies">
+        <!-- header -->
+        <div class="categories-grid">
+          <ul class="w-1/2 flex justify-between">
+            <li><button class="btn btn-secondary btn-outline active" data-filter="*"><h3>All</h3></button></li>
+            <li><button class="btn btn-secondary btn-outline" data-filter="photography"><h3>Photography</h3></button></li> 
+            <li><button class="btn btn-secondary btn-outline" data-filter="food"><h3>Food</h3></button></li> 
+            <li><button class="btn btn-secondary btn-outline" data-filter="art"><h3>Art</h3></button></li> 
+          </ul>
+        </div>
+        
+        <!-- hobbies_container -->
+        <div class="no-padding hobbies_container">
+        
+          <!-- photo1 -->
+          <div class="hobbies_item mr-10 photography"> 
+              <img src="/src/photos/chicagoBuilding.jpg" alt="building" />
+            <div class="hobbies_item_hover">
+              <div class="item_info"> <span>Chicago, Illinois</span> <em>United States</em> </div>
+            </div>
+          </div>
+  
+          <!-- photo2-->
+          <div class="hobbies_item mr-10 photography"> 
+              <img src="/src/photos/chicagoBus.jpg" alt="Bus" />
+            <div class="hobbies_item_hover">
+              <div class="hobbies-border">
+                <div class="item_info"> <span>Chicago, Illinois</span> <em>United States</em> </div>
+              </div>
+            </div>
+          </div>
+                      
+          <!-- photo3-->
+          <div class="hobbies_item mr-10 photography"> 
+              <img src="/src/photos/chicagoClock.jpg" alt="Clock" />
+            <div class="hobbies_item_hover">
+              <div class="hobbies-border">
+                <div class="item_info"> <span>Chicago, Illinois</span> <em>United States</em> </div>
+              </div>
+            </div>
+          </div>
+                      
+          <!-- photo4-->
+          <div class="hobbies_item mr-10 photography"> 
+              <img src="/src/photos/chicagoBirds.jpg" alt="Birds" />
+            <div class="hobbies_item_hover">
+              <div class="hobbies-border">
+                <div class="item_info"> <span>Chicago, Illinois</span> <em>United States</em> </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- photo5-->
+          <div class="hobbies_item mr-10 food"> 
+            <img src="/src/photos/food.jpg" alt="food" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Spicy Fish and Tofu</span> <em>Food</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- photo5-->
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/balconyKL.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Kuala Lumpur</span> <em>Malaysia</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 food"> 
+            <img src="/src/photos/bbq.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Chinese Barbecue</span> <em>Food</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/beanChicago.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Chicago, Illinois</span> <em>United States</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 food"> 
+            <img src="/src/photos/burger.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Home Made Burger</span> <em>Food</em> </div>
+                </div>
+              </div>
+          </div>          
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/cactus.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Grand Rapids, Michigan</span> <em>United States</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/dragonSin.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Marina Bay</span> <em>Singapore</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/elkAri.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Phoenix, Arizona</span> <em>United States</em> </div>
+                </div>
+              </div>
+          </div>
+          
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/glassFlowersSin.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Marina Bay</span> <em>Singapore</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/housesKL.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Kuala Lumpur</span> <em>Malaysia</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/balconyKL.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Kuala Lumpur</span> <em>Malaysia</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/mountainGC.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Phoenix, Arizona</span> <em>United States</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/palmTreeAri.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Florida</span> <em>United States</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 food"> 
+            <img src="/src/photos/ribs.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Barbecue Ribs</span> <em>Food</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 food"> 
+            <img src="/src/photos/steamRibs.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Steamed Ribs</span> <em>Food</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/roundRoofKL.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Kuala Lumpur</span> <em>Malaysia</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/streeKL.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Kuala Lumpur</span> <em>Malaysia</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/sunCar.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Phoenix, Arizona</span> <em>United States</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 photography"> 
+            <img src="/src/photos/viewKL.jpg" alt="" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Kuala Lumpur</span> <em>Malaysia</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art1.jpeg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Oil Pastel</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art2.png" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Oil Pastel</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/photo2.jpeg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Oil Pastel</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art3.jpg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Sketching</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art4.jpg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Sketching</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art5.jpg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Sketching</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art6.jpeg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Sketching</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art7.jpg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Sketching</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art8.jpeg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Sketching</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 art"> 
+            <img src="/src/photos/art9.jpeg" alt="art" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Sketching</span> <em>Art</em> </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hobbies_item mr-10 food"> 
+            <img src="/src/photos/cookies.jpeg" alt="cookies" />
+              <div class="hobbies_item_hover">
+                <div class="hobbies-border">
+                  <div class="item_info"> <span>Cookies</span> <em>Food</em> </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+        <!--Hobbies Container-->
+      </div>
+      <!--Hobbies Class-->
+    </div>
   </div>
+</section>
+<!--end of hobbies-->
+
+
+<!--Contact Me-->
+
+<section class="parallax-container4">
+</section>
+
+<section class="buffer4" id="buffer4">
+  <div id="contact" class="text-primary">
+   <h1>Contact <br /> Me</h1> 
+   <h4>I would love to hear from you! Reach out to me via the channels below or leave a message!</h4>
+  </div>
+
+
 </section>

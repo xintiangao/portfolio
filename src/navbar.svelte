@@ -45,38 +45,17 @@ function scrollToHobbies() {
     behavior: 'smooth'
     });
 }
-// import { onMount } from 'svelte';
 
-// function moveImageWithCursor(containerId, imageId) {
-//   const container = document.getElementById(containerId);
-//   const image = document.getElementById(imageId);
+function scrollToContactMe() {
+    const bufferSection = document.querySelector('#buffer4');
+    const bufferRect = bufferSection.getBoundingClientRect();
+    const bufferTop = bufferRect.top + window.pageYOffset;
 
-//   function handleMouseMove(event) {
-//     const x = event.clientX;
-//     const y = event.clientY;
-
-//     const containerRect = container.getBoundingClientRect();
-//     const containerCenterX = containerRect.left + containerRect.width / 2;
-//     const containerCenterY = containerRect.top + containerRect.height / 2;
-
-//     const moveX = (containerCenterX - x) / containerCenterX * 10;
-//     const moveY = (containerCenterY - y) / containerCenterY * 10;
-
-//     image.style.transform = `translate(${moveX}px, ${moveY}px)`;
-//   }
-
-//   onMount(() => {
-//     document.addEventListener('mousemove', handleMouseMove);
-
-//     return () => {
-//       document.removeEventListener('mousemove', handleMouseMove);
-//     };
-//   });
-// }
-
-// moveImageWithCursor('up-container', 'up-image');
-// moveImageWithCursor('person-container', 'person-image');
-
+    window.scrollTo({
+    top: bufferTop,
+    behavior: 'smooth'
+    });
+}
 </script>
 
 <container>
@@ -103,9 +82,7 @@ function scrollToHobbies() {
     </div>
 
     <div class="guide text-primary flex align-middle justify-center">
-      <a href="section4">
-        <button>Contact Me</button>
-      </a>
+      <button on:click={scrollToContactMe}>Contact Me</button>
     </div>
   </guideContainer>
 </container>
