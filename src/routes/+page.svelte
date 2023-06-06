@@ -8,12 +8,11 @@
   
   <style>
  @import "../utils/styles.css";
- @import url('https://css.gg/css?=|arrow-up-r');
   </style>
 
   <Navbar />
   <a href="/" class="scroll-to-top">
-    <span class="gg-arrow-up-r "></span>
+    <span class="gg-arrow-up-r"></span>
   </a>
 
 
@@ -23,7 +22,7 @@
     <div id ="about" class="text-primary" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
       <h1 class="size-50 mb-3">About me</h1>
       <div class="flex content-center flex-col">
-        <h5>Hello, my name is Xintian Gao and this is my portfolio site. </h5><br />
+        <h5>Hello, my name is Xintian Gao. </h5><br />
         <h5>Feel free to scroll around and check out the site. Let me know if you like or have constructive criticisms about anything. </h5><br />
         <h5>Reach out to me via the contact section at the bottom of the profile! Either scroll or click "Contact Me" at the top of the page. </h5><br />
         <br />
@@ -480,9 +479,30 @@
 
 <section class="buffer4" id="buffer4">
   <div id="contact" class="text-primary">
-   <h1>Contact <br /> Me</h1> 
-   <h4>I would love to hear from you! Reach out to me via the channels below or leave a message!</h4>
+   <h1 class="flex justify-center">Contact Me</h1> 
+   <h4 class="flex justify-center">I would love to hear from you! Reach out to me via the channels below and leave a message!</h4>
+    <div class="contact-container">
+
+      <div class="icons flex flex-row justify-start mt-5 space-x-7">
+        <a href="mailto:gaoxintian08@gmail.com">
+          <button><i class="gg-mail"></i></button>
+        </a>
+        <a href="mailto:gaoxintian08@gmail.com">
+         <h6>gaoxintian08@gmail.com</h6>
+        </a>
+      </div>
+      
+
+      <div class="icons flex flex-row justify-start mt-5 space-x-7">
+        <a href="https://www.instagram.com/cynthia_gao_">
+          <button><i class="gg-instagram"></i></button>
+        </a>
+        <a href="https://www.instagram.com/cynthia_gao_">
+          <h6>cynthia_gao_</h6>
+        </a>
+      </div>
+    </div>
   </div>
-
-
 </section>
+
+<div id="bottom"></div>
