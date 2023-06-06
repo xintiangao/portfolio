@@ -116,10 +116,8 @@ function removeConfetti() {
 
 <container>
   <nav>
-    <div class="name text-primary flex align-middle justify-center animate__animated animate__fadeInUp">
-      <a href="/">
-        <button>Xintian Gao</button>
-      </a>
+    <div class="name text-primary flex align-middle justify-center" data-aos-easing="ease-in-sine" data-aos="zoom-in-up">
+      <button>Xintian Gao</button>
     </div>
   </nav>
 
