@@ -43,27 +43,27 @@
     <div class="up_container flex align-start">
 
       <div class="w-11/12 absolute left-1/3 -bottom-2/4 z-10 up_item" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="portfolio/src/photos/UPBirds.jpg" alt="birds" />
+        <img src="../portfolio/src/photos/UPBirds.jpg" alt="birds" />
       </div>
       
       <div class="w-11/12 absolute top-60   up_item" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="portfolio/src/photos/uPPerson.jpg" alt="person"/>
+        <img src="../portfolio/src/photos/uPPerson.jpg" alt="person"/>
       </div>
 
       <div class="w-11/12 absolute top-14 up_item" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="portfolio/src/photos/UPPicturedRock.jpg" alt="rock" />
+        <img src="../portfolio/src/photos/UPPicturedRock.jpg" alt="rock" />
       </div>
 
       <div class="w-11/12 absolute top-1/3 up_item" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="portfolio/src/photos/UPTrees.jpg" alt="trees"/>
+        <img src="../portfolio/src/photos/UPTrees.jpg" alt="trees"/>
       </div>
 
       <div class="w-10/12 absolute left-16 top-1/3 up_item" data-aos="zoom-in-up" data-aos-offset="350" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="portfolio/src/photos/treesFilmUP.jpg" alt="trees"/>
+        <img src="../portfolio/src/photos/treesFilmUP.jpg" alt="trees"/>
       </div>
 
       <div class="w-11/12 absolute right-32 top-7 up_item" data-aos="zoom-in-up" data-aos-offset="400" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="portfolio/src/photos/birdsGroundUP.JPG" alt="bird"/>
+        <img src="../portfolio/src/photos/birdsGroundUP.JPG" alt="bird"/>
       </div>
 
     </div>
