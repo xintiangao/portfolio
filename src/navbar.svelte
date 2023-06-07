@@ -71,47 +71,47 @@ jQuery(document).ready(function() {
   });
 
 
-// confetti animation
-window.addEventListener('scroll', function() {
-  var buffer4 = document.getElementById('buffer4');
+// // confetti animation
+// window.addEventListener('scroll', function() {
+//   var buffer4 = document.getElementById('buffer4');
 
-  if (isInViewport(buffer4)) {
-    createConfetti();
-  }  else {
-    removeConfetti();
-  }
-});
+//   if (isInViewport(buffer4)) {
+//     createConfetti();
+//   }  else {
+//     removeConfetti();
+//   }
+// });
 
 
-function createConfetti() {
-  var confettiContainer = document.createElement('div');
-  confettiContainer.className = 'confetti';
+// function createConfetti() {
+//   var confettiContainer = document.createElement('div');
+//   confettiContainer.className = 'confetti';
 
-  for (var i = 0; i < 50; i++) {
-    var piece = document.createElement('div');
-    piece.className = 'piece';
-    piece.style.left = Math.random() * 100 + 'vw';
-    piece.style.animationDelay = Math.random() * 2 + 's';
-    confettiContainer.appendChild(piece);
-  }
+//   for (var i = 0; i < 50; i++) {
+//     var piece = document.createElement('div');
+//     piece.className = 'piece';
+//     piece.style.left = Math.random() * 100 + 'vw';
+//     piece.style.animationDelay = Math.random() * 2 + 's';
+//     confettiContainer.appendChild(piece);
+//   }
 
-  document.body.appendChild(confettiContainer);
-}
+//   document.body.appendChild(confettiContainer);
+// }
 
-function isInViewport(element) {
-  var bounding = element.getBoundingClientRect();
-  return (
-    bounding.top >= 0 &&
-    bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-  );
-}
+// function isInViewport(element) {
+//   var bounding = element.getBoundingClientRect();
+//   return (
+//     bounding.top >= 0 &&
+//     bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+//   );
+// }
 
-function removeConfetti() {
-  var confettiContainer = document.querySelector('.confetti');
-  if (confettiContainer) {
-    confettiContainer.remove();
-  }
-}
+// function removeConfetti() {
+//   var confettiContainer = document.querySelector('.confetti');
+//   if (confettiContainer) {
+//     confettiContainer.remove();
+//   }
+// }
 </script>
 
 <container>
