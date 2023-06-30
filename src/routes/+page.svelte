@@ -33,7 +33,7 @@
     
     <div class="about-border" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine"> </div>
     <div class="about-img-div">
-      <img src="/src/photos/about.jpg" alt="about me">
+      <img href="https://portfolio-xin.s3.amazonaws.com/photos/about.jpg" alt="about me">
     </div>
 
   </section>
