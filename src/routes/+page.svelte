@@ -124,7 +124,7 @@
 
 <!-- ./experience -->
 
-<section class="parallax-container3 relative"autoplay muted loop>
+<section class="parallax-container3 relative">
   <video class="video-background saturate-120 contrast-120" autoplay muted loop>
     <source src="https://portfolio-xin.s3.amazonaws.com/photos/cola.mp4" type="video/mp4">
     Your browser does not support the video tag.
