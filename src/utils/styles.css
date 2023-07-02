@@ -71,12 +71,12 @@ background-position: center;
 background-size: cover;
 background-image: url(../photos/lake.jpeg);
 gap: 1.6em;
+padding: 1rem;
 }
 
 .parallax-container2 .up_container {
-    width:auto;
+    /* width:auto; */
     height: 100%;
-    margin:20px;
 }
 
 .parallax-container2 .up_item {
@@ -140,7 +140,7 @@ background-color: var(--color);
 
 .about-img-div img {
     position:relative;
-    bottom:63em;
+    bottom:60em;
     left: 60%;
     z-index: 10;
     width: 30em;
@@ -150,8 +150,8 @@ background-color: var(--color);
 .about-border {
     position: relative;
     border: 10px solid tan;
-    bottom: 38em;
-    left: 46em;
+    bottom: 36em;
+    left: 49em;
     width: 30em;
     height: 30em;
 }

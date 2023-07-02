@@ -26,8 +26,8 @@
         <h5>I graduated from Calvin University in with a degree in Secondary Education and Social studies, with minors in psychology and economics. In Fall 2023, I will enrolled in University of Michigan--Ann Arbor to pursue a degree in Design and Technologies in Learning. My career goal is to use technologies and online platforms to provide accessible and integrated education to learners across the world.</h5><br />
         <h5>Reach out to me via the contact section of the profile! Either scroll to the bottom or click "Contact Me" at the top of the page. </h5><br />
         <br />
-        <h5>XoXo,</h5>
-        <h5>Xintian</h5>
+        <h5><b>Best Regards,</b></h5>
+        <h5><b>Xintian</b></h5>
       </div>
     </div>
     
@@ -42,27 +42,23 @@
   <section class="parallax-container2">
     <div class="up_container flex align-start">
 
-      <div class="w-11/12 absolute left-1/3 -bottom-2/4 z-10 up_item" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="1000" data--easing="ease-in-sine">
+      <div class=" aspect-[1/3] relative z-10 left-[5%]" data-aos="zoom-in-up" data-aos-offset="250" data-aos-duration="1000" data--easing="ease-in-sine">
         <img src="https://portfolio-xin.s3.amazonaws.com/photos/UPBirds.jpg" alt="birds" />
       </div>
       
-      <div class="w-11/12 absolute top-60   up_item" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+      <div class="aspect-[1/3] relative z-10 top-[15%] ml-5 left-[5%]" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <img src="https://portfolio-xin.s3.amazonaws.com/photos/uPPerson.jpg" alt="person"/>
       </div>
 
-      <div class="w-11/12 absolute top-14 up_item" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+      <div class="aspect-[2/4] relative top-[10%] ml-7 left-[5%]" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <img src="https://portfolio-xin.s3.amazonaws.com/photos/UPPicturedRock.jpg" alt="rock" />
       </div>
 
-      <div class="w-11/12 absolute top-1/3 up_item" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="https://portfolio-xin.s3.amazonaws.com/photos/UPTrees.jpg" alt="trees"/>
-      </div>
-
-      <div class="w-10/12 absolute left-16 top-1/3 up_item" data-aos="zoom-in-up" data-aos-offset="350" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+      <div class="aspect-[1/3] relative top-[55%] right-[15%]" data-aos="zoom-in-up" data-aos-offset="350" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <img src="https://portfolio-xin.s3.amazonaws.com/photos/treesFilmUP.jpg" alt="trees"/>
       </div>
 
-      <div class="w-11/12 absolute right-32 top-7 up_item" data-aos="zoom-in-up" data-aos-offset="400" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+      <div class="aspect-[1/3] relative top-[65%] right-[75%]" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <img src="https://portfolio-xin.s3.amazonaws.com/photos/birdsGroundUP.jpg" alt="bird"/>
       </div>
 
