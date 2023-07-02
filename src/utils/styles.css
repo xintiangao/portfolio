@@ -49,6 +49,7 @@ h6 {
 .parallax-container1 {
 display: flex;
 min-height: 100vh;
+width: 100%;
 background-image: url(../photos/grandCanyon.jpg);
 background-attachment: fixed;
 background-position: center;
@@ -65,26 +66,13 @@ height: 70vh;
 .parallax-container2 {
 position: relative;
 display: flex;
-height: 130vh;
+min-height: 130vh;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
 background-image: url(../photos/lake.jpeg);
 gap: 1.6em;
 padding: 1rem;
-}
-
-.parallax-container2 .up_container {
-    /* width:auto; */
-    height: 100%;
-}
-
-.parallax-container2 .up_item {
-    position: relative;
-    overflow: hidden;
-    display: block;
-    transform: translateZ(.25px) scale(2.0);
-    border-radius: 5px;
 }
 
 .buffer2 {

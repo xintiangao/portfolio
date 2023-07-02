@@ -252,7 +252,7 @@
           </div>
 
           <div class="hobbies_item mr-10 photography"> 
-            <img src="https://portfolio-xin.s3.amazonaws.com/photos//elkAri.jpg" alt="" />
+            <img src="https://portfolio-xin.s3.amazonaws.com/photos/elkAri.jpg" alt="" />
               <div class="hobbies_item_hover">
                 <div class="hobbies-border">
                   <div class="item_info"> <span>Phoenix, Arizona</span> <em>United States</em> </div>
@@ -261,7 +261,7 @@
           </div>
           
           <div class="hobbies_item mr-10 photography"> 
-            <img src="https://portfolio-xin.s3.amazonaws.com/photos//glassFlowersSin.jpg" alt="" />
+            <img src="https://portfolio-xin.s3.amazonaws.com/photos/glassFlowersSin.jpg" alt="" />
               <div class="hobbies_item_hover">
                 <div class="hobbies-border">
                   <div class="item_info"> <span>Marina Bay</span> <em>Singapore</em> </div>
