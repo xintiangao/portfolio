@@ -128,20 +128,19 @@ background-color: var(--color);
 
 .about-img-div img {
     position:relative;
-    bottom:60em;
-    left: 60%;
+    bottom:65em;
+    left:65%;
     z-index: 10;
-    width: 30em;
-    height: 30em;
+    height: 35em;
 }
 
 .about-border {
     position: relative;
     border: 10px solid tan;
     bottom: 36em;
-    left: 49em;
-    width: 30em;
-    height: 30em;
+    left: 55%;
+    width: 30%;
+    height: 80%;
 }
 
 /* experience section

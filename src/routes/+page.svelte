@@ -23,7 +23,7 @@
       <h1 class="size-50 mb-3">About me</h1>
       <div class="flex content-center flex-col">
         <h5>Hello, my name is Xintian Gao. </h5><br />
-        <h5>I graduated from Calvin University in with a degree in Secondary Education and Social studies, with minors in psychology and economics. In Fall 2023, I will enrolled in University of Michigan--Ann Arbor to pursue a degree in Design and Technologies in Learning. My career goal is to use technologies and online platforms to provide accessible and integrated education to learners across the world.</h5><br />
+        <h5>I graduated from Calvin University in with a degree in Secondary Education and Social studies, with minors in psychology and economics. As if now, I'm enrolled in University of Michigan--Ann Arbor for Design and Technologies in Learning in the Marsal Family School of Education. My career goal is to use technologies and online platforms to provide accessible and language/culture integrated education to learners across the world, as well as provide aid for classroom teachers to better learning and teaching experience.</h5><br />
         <h5>Reach out to me via the contact section of the profile! Either scroll to the bottom or click "Contact Me" at the top of the page. </h5><br />
         <br />
         <h5><b>Best Regards,</b></h5>
@@ -33,7 +33,7 @@
     
     <div class="about-border" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine"> </div>
     <div class="about-img-div">
-      <img src="https://portfolio-xin.s3.amazonaws.com/photos/about.jpg" alt="about me">
+      <img src="https://portfolio-xin.s3.amazonaws.com/photos/profile+pic.JPG" alt="about me">
     </div>
 
   </section>
@@ -207,7 +207,7 @@
           </div>
 
           <div class="hobbies_item mr-10 food"> 
-            <img src="/src/photos/bbq.jpg" alt="" />
+            <img src="https://portfolio-xin.s3.amazonaws.com/photos/bbq.jpg" alt="" />
               <div class="hobbies_item_hover">
                 <div class="hobbies-border">
                   <div class="item_info"> <span>Chinese Barbecue</span> <em>Food</em> </div>
