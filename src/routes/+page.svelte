@@ -42,12 +42,12 @@
   <section class="parallax-container2">
     <div class="up_container flex align-start">
 
-      <div class=" aspect-[1/3] relative z-10 left-[5%]" data-aos="zoom-in-up" data-aos-offset="250" data-aos-duration="1000" data--easing="ease-in-sine">
+      <div class="aspect-[1/3] relative z-10 left-[5%]" data-aos="zoom-in-up" data-aos-offset="250" data-aos-duration="1000" data--easing="ease-in-sine">
         <img src="https://portfolio-xin.s3.amazonaws.com/photos/UPBirds.jpg" alt="birds" />
       </div>
       
       <div class="aspect-[1/3] relative z-10 top-[15%] ml-5 left-[5%]" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="https://portfolio-xin.s3.amazonaws.com/photos/uPPerson.jpg" alt="person"/>
+        <img src="https://portfolio-xin.s3.amazonaws.com/photos/uPPerson.jpg" alt="person" />
       </div>
 
       <div class="aspect-[2/4] relative top-[10%] ml-7 left-[5%]" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
@@ -55,11 +55,11 @@
       </div>
 
       <div class="aspect-[1/3] relative top-[55%] right-[15%]" data-aos="zoom-in-up" data-aos-offset="350" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="https://portfolio-xin.s3.amazonaws.com/photos/treesFilmUP.jpg" alt="trees"/>
+        <img src="https://portfolio-xin.s3.amazonaws.com/photos/treesFilmUP.jpg" alt="trees" />
       </div>
 
       <div class="aspect-[1/3] relative top-[65%] right-[75%]" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <img src="https://portfolio-xin.s3.amazonaws.com/photos/birdsGroundUP.jpg" alt="bird"/>
+        <img src="https://portfolio-xin.s3.amazonaws.com/photos/birdsGroundUP.jpg" alt="bird" />
       </div>
 
     </div>
@@ -72,6 +72,20 @@
     <h1 class="mb-8">My <br /> Experience</h1>
 
     <ul class="timeline">
+        <li class="timeline-event" data-aos="fade-up" data-aos-duration="2500"> 
+            <div class="timeline-event-icon"></div>
+            <div class="timeline-event-copy">
+                <h2 class="timeline-event-thumbnail">August 2023 - Current</h2>
+                <h3>Graduate Student Program Assistant</h3>
+                <h4>Science Learning Center, University of Michigan—Ann Arbor</h4>
+                <h5>•	Act as a Tutor Team Lead and facilitate tutor observations and evaluation process<br />
+                    •	Act as a Leader for Tutor Team Leaders by managing regular meetings and training, as well as administrating CRLA Certification requirements for each tutor<br />
+                    •	Assist with the organization, distribution, and analysis of survey results for the tutor evaluation and weekly tutoring utilization data<br />
+                    •	Coordinate, design, and distribute weekly newsletter for the Tutoring Program
+                </h5>
+            </div>
+        </li>
+
         <li class="timeline-event" data-aos="fade-up" data-aos-duration="2500"> 
             <div class="timeline-event-icon"></div>
             <div class="timeline-event-copy">
