@@ -2,8 +2,8 @@
     import Navbar from "../navbar.svelte";
     import AOS from 'aos';
     import 'aos/dist/aos.css'; 
+    
     AOS.init(); 
-
 </script>
   
   <style>
@@ -21,9 +21,10 @@
   <section id="buffer1" class="buffer1">
     <div id ="about" class="text-primary" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" >
       <h1 class="size-50 mb-3">About me</h1>
-      <div class="flex content-center flex-col">
+      <div class="flex content-center flex-col text-black">
         <h5>Hello, my name is Xintian Gao. </h5><br />
         <h5>I graduated from Calvin University in with a degree in Secondary Education and Social studies, with minors in psychology and economics. As if now, I'm enrolled in University of Michigan--Ann Arbor for Design and Technologies in Learning in the Marsal Family School of Education. My career goal is to use technologies and online platforms to provide accessible and language/culture integrated education to learners across the world, as well as provide aid for classroom teachers to better learning and teaching experience.</h5><br />
+        <h5>I'm currently a learning experience design intern at the Center of Academic Innovation, you can see the artifacts I created for a recent MOOC project <a href="/projects"><u>here.</u></a> </h5><br />
         <h5>Reach out to me via the contact section of the profile! Either scroll to the bottom or click "Contact Me" at the top of the page. </h5><br />
         <br />
         <h5><b>Best Regards,</b></h5>
@@ -72,10 +73,28 @@
     <h1 class="mb-8">My <br /> Experience</h1>
 
     <ul class="timeline">
+
+        <li class="timeline-event" data-aos="fade-up" data-aos-duration="2500"> 
+            <div class="timeline-event-icon"></div>
+            <div class="timeline-event-copy">
+                <h2 class="timeline-event-thumbnail">September 2023 - Current</h2>
+              <div class="text-black">
+                <a href="/projects"><h3 href="/projects">Course Design Assistance (Click for LXD Portfolio)</h3></a>
+                <h4>Center of Academic Innovation, University of Michigan—Ann Arbor</h4>
+                <h5>•	Act as a Tutor Team Lead and facilitate tutor observations and evaluation process<br />
+                    •	Act as a Leader for Tutor Team Leaders by managing regular meetings and training, as well as administrating CRLA Certification requirements for each tutor<br />
+                    •	Assist with the organization, distribution, and analysis of survey results for the tutor evaluation and weekly tutoring utilization data<br />
+                    •	Coordinate, design, and distribute weekly newsletter for the Tutoring Program
+                </h5>
+              </div>
+            </div>
+        </li>
+
         <li class="timeline-event" data-aos="fade-up" data-aos-duration="2500"> 
             <div class="timeline-event-icon"></div>
             <div class="timeline-event-copy">
                 <h2 class="timeline-event-thumbnail">August 2023 - Current</h2>
+              <div class="text-black">
                 <h3>Graduate Student Program Assistant</h3>
                 <h4>Science Learning Center, University of Michigan—Ann Arbor</h4>
                 <h5>•	Act as a Tutor Team Lead and facilitate tutor observations and evaluation process<br />
@@ -83,6 +102,7 @@
                     •	Assist with the organization, distribution, and analysis of survey results for the tutor evaluation and weekly tutoring utilization data<br />
                     •	Coordinate, design, and distribute weekly newsletter for the Tutoring Program
                 </h5>
+              </div>
             </div>
         </li>
 

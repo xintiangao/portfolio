@@ -3,13 +3,15 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+
+    },
   },
   plugins: [require("daisyui"), require('@tailwindcss/typography')],
 
   daisyui: {
     themes: ["retro", "dracula"],
-    darkTheme: "dracula",
+    darkTheme: "retro",
   },
 }
 
