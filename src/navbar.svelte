@@ -1,6 +1,4 @@
-<script>
-    // import { goto } from '$app/navigation';
-  
+<script>  
   let currentTheme = "retro";
 
   function toggleTheme() {
@@ -46,7 +44,7 @@ function scrollToHobbies() {
     });
 }
 
-function scrollToContactMe() {
+export function scrollToContactMe() {
     const bufferSection = document.querySelector('#buffer4');
     const bufferRect = bufferSection.getBoundingClientRect();
     const bufferTop = bufferRect.top + window.pageYOffset;

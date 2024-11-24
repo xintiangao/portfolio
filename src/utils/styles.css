@@ -3,500 +3,499 @@
 /* fonts
 =======================================================*/
 h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 80px;
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 80px;
 }
 
 h2 {
-    font-weight: 200;
-    font-size: 18px;
-    font-family: 'Playfair Display','sans-serif';
+	font-weight: 200;
+	font-size: 18px;
+	font-family: 'Playfair Display', 'sans-serif';
 }
 
 h3 {
-    font-size: 1.75em;
-    font-family: 'Playfair Display','sans-serif';
-    text-decoration: underline;
+	font-size: 1.75em;
+	font-family: 'Playfair Display', 'sans-serif';
+	text-decoration: underline;
 }
 
 h4 {
-    font-size: 1.2em;
-    font-weight: 400;
-    font-family: 'Playfair Display','sans-serif';
-    font-style:italic;
-    margin-bottom: 0.2em;
+	font-size: 1.2em;
+	font-weight: 400;
+	font-family: 'Playfair Display', 'sans-serif';
+	font-style: italic;
+	margin-bottom: 0.2em;
 }
 
 h5 {
-    font-size: 1.15em;
-    font-weight: 400;
-    font-family: 'Playfair Display','sans-serif';
+	font-size: 1.15em;
+	font-weight: 400;
+	font-family: 'Playfair Display', 'sans-serif';
 }
 
-
 h6 {
-    font-weight: 200;
-    font-size: 24px;
-    font-family: 'Playfair Display','sans-serif';
+	font-weight: 200;
+	font-size: 24px;
+	font-family: 'Playfair Display', 'sans-serif';
 }
 
 /* background images and parallax scrolling effects. 
 ========================================================*/
 
 .parallax-container1 {
-display: flex;
-min-height: 100vh;
-width: 100%;
-background-image: url(https://portfolio-xin.s3.amazonaws.com/photos/alaska_mountain.jpg);
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-row-gap: 4rem;
-text-align: center;
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(https://portfolio-xin.s3.amazonaws.com/photos/alaska_mountain.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	row-gap: 4rem;
+	text-align: center;
 }
 
 .buffer1 {
-width: 100%;
-height: 70vh;
+	width: 100%;
+	height: 70vh;
 }
 
 .parallax-container2 {
-position: relative;
-display: flex;
-min-height: 130vh;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-background-image: url(../photos/lake.jpeg);
-gap: 1.6em;
-padding: 1rem;
+	position: relative;
+	display: flex;
+	min-height: 130vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../photos/lake.jpeg);
+	gap: 1.6em;
+	padding: 1rem;
 }
 
 .buffer2 {
-min-height: 800px;
-width: 100%;
+	min-height: 800px;
+	width: 100%;
 }
 
 .parallax-container3 {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-min-height: 100vh;
-object-fit: cover;
-z-index: -1;
-gap: 1.6em;
-} 
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	object-fit: cover;
+	z-index: -1;
+	gap: 1.6em;
+}
 
 .buffer3 {
-min-height: 800px;
-width: 100%;
+	min-height: 800px;
+	width: 100%;
 }
 
 .parallax-container4 {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-min-height: 100vh;
-padding: 6rem 0;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-background-image: url(../photos/snowyTrees.jpg);
-gap: 1.6em;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 6rem 0;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../photos/snowyTrees.jpg);
+	gap: 1.6em;
 }
 
 .buffer4 {
-min-height: 100px;
-width: 100%;
-background-color: var(--color);
+	min-height: 100px;
+	width: 100%;
+	background-color: var(--color);
 }
 
 /* about section
 ==================================================*/
 
 #about {
-    margin:30px;
-    width: 50%;
+	margin: 30px;
+	width: 50%;
 }
 
 .about-img-div img {
-    position:relative;
-    bottom:65em;
-    left:65%;
-    z-index: 10;
-    height: 35em;
+	position: relative;
+	bottom: 65em;
+	left: 65%;
+	z-index: 10;
+	height: 35em;
 }
 
 .about-border {
-    position: relative;
-    border: 10px solid tan;
-    bottom: 36em;
-    left: 55%;
-    width: 30%;
-    height: 80%;
+	position: relative;
+	border: 10px solid tan;
+	bottom: 36em;
+	left: 55%;
+	width: 30%;
+	height: 80%;
 }
 
 /* experience section
 ====================================================*/
 
 #experience {
-    padding: 100px,0;
-    margin:30px;
+	padding: 100px, 0;
+	margin: 30px;
 }
 
 .timeline {
-    list-style: none;
-    position: relative;
+	list-style: none;
+	position: relative;
 }
 
 .timeline:before {
-    background-color: black;
-    content: '';
-    margin-left: -1px;
-    position: absolute;
-    top: 0;
-    left: 2em;
-    width: 2px;
-    height: 100%;
+	background-color: black;
+	content: '';
+	margin-left: -1px;
+	position: absolute;
+	top: 0;
+	left: 2em;
+	width: 2px;
+	height: 100%;
 }
 
 .timeline-event {
-    position: relative;
+	position: relative;
 }
 
 .timeline-event:hover .timeline-event-icon {
-    transform: rotate(-45deg);
-    background-color: #50A194;
+	transform: rotate(-45deg);
+	background-color: #50a194;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #08787F;
+	box-shadow: inset 40em 0 0 0 #08787f;
 }
 
 .timeline-event-copy {
-    padding: 2em;
-    position: relative;
-    top: -1.875em;
-    left: 4em;
-    width: 100%;
+	padding: 2em;
+	position: relative;
+	top: -1.875em;
+	left: 4em;
+	width: 100%;
 }
 
 .timeline-event-copy h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 80px;
-    color: var(--color);
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 80px;
+	color: var(--color);
 }
 
 .timeline-event-copy h2 {
-    font-weight: 200;
-    font-size: 18px;
-    font-family: 'Playfair Display','sans-serif';
+	font-weight: 200;
+	font-size: 18px;
+	font-family: 'Playfair Display', 'sans-serif';
 }
 
 .timeline-event-copy h3 {
-    font-size: 1.75em;
-    font-family: 'Playfair Display','sans-serif';
-    text-decoration: underline;
+	font-size: 1.75em;
+	font-family: 'Playfair Display', 'sans-serif';
+	text-decoration: underline;
 }
 
 .timeline-event-copy h4 {
-    font-size: 1.2em;
-    font-weight: 400;
-    font-family: 'Playfair Display','sans-serif';
-    font-style:italic;
-    margin-bottom: 0.2em;
+	font-size: 1.2em;
+	font-weight: 400;
+	font-family: 'Playfair Display', 'sans-serif';
+	font-style: italic;
+	margin-bottom: 0.2em;
 }
 
 .timeline-event-copy h5 {
-    font-size: 1.15em;
-    font-weight: 400;
-    font-family: 'Playfair Display','sans-serif';
+	font-size: 1.15em;
+	font-weight: 400;
+	font-family: 'Playfair Display', 'sans-serif';
 }
 
 .timeline-event-copy strong {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .timeline-event-icon {
-    transition: transform 0.2s ease-in;
-    transform: rotate(45deg);
-    background-color: #08787F;
-    outline: 10px solid #f3f3f3;
-    display: block;
-    margin: 0.5em 0.5em 0.5em -0.5em;
-    position: absolute;
-    top: 0;
-    left: 2em;
-    width: 1em;
-    height: 1em;
+	transition: transform 0.2s ease-in;
+	transform: rotate(45deg);
+	background-color: #08787f;
+	outline: 10px solid #f3f3f3;
+	display: block;
+	margin: 0.5em 0.5em 0.5em -0.5em;
+	position: absolute;
+	top: 0;
+	left: 2em;
+	width: 1em;
+	height: 1em;
 }
 
 .timeline-event-thumbnail {
-    transition-delay: 1.5s;
-    transition-property: margin right; 
-    transition-timing-function: ease-in;
-    transition: ease-in 0.1s;
-    font-size: 12px;
-    font-weight: bold;
-    background-color: black;
-    box-shadow: inset 0 0 0 0em #50A194;
-    display: inline-block;
-    margin-bottom: 1.2em;
-    padding: 0.25em 1em 0.2em 1em;
+	transition-delay: 1.5s;
+	transition-property: margin right;
+	transition-timing-function: ease-in;
+	transition: ease-in 0.1s;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: black;
+	box-shadow: inset 0 0 0 0em #50a194;
+	display: inline-block;
+	margin-bottom: 1.2em;
+	padding: 0.25em 1em 0.2em 1em;
 }
 
 /* hobbies
 =======================================================*/
 
 #hobbies {
-    padding: 100px,0;
-    margin:30px;
+	padding: 100px, 0;
+	margin: 30px;
 }
 
 .hobbies .categories-grid span {
-    font-size: 30px;
-    margin-bottom: 30px;
-    display: inline-block;
+	font-size: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
 }
 
 .hobbies .categories-grid ul li {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 .hobbies_container {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-wrap: wrap;
 }
 
 .hobbies_item {
-    position: relative;
-    overflow: hidden;
-    display: block;
-    margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 30px;
 }
 
 .hobbies_item img {
-    height: 300px;
-    width: auto;
-  }
+	height: 300px;
+	width: auto;
+}
 
 .hobbies_item .hobbies_item_hover {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: #a4cbb4;
-    opacity: 0;
-    transition: all .2s ease-in-out;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #a4cbb4;
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
 }
 
 .hobbies_item .hobbies_item_hover .item_info {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    width: 100%;
-    font-weight: bold;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
 }
 
 .hobbies_item .hobbies_item_hover .item_info span {
-    display: block;
-    font-size: 30px;
-    transform: translateY(-100px);
-    transition: all .3s ease-in-out .3s;
-    opacity: 0;
+	display: block;
+	font-size: 30px;
+	transform: translateY(-100px);
+	transition: all 0.3s ease-in-out 0.3s;
+	opacity: 0;
 }
 
 .hobbies_item .hobbies_item_hover .item_info em {
-    font-style: normal;
-    display: inline-block;
-    background-color: #a4cbb4;
-    padding: 5px 20px;
-    margin-top: 10px;
-    transform: translateY(100px);
-    transition: all .3s ease-in-out .3s;
-    opacity: 0;
-    font-size: 15px;
-    letter-spacing: 2px;
+	font-style: normal;
+	display: inline-block;
+	background-color: #a4cbb4;
+	padding: 5px 20px;
+	margin-top: 10px;
+	transform: translateY(100px);
+	transition: all 0.3s ease-in-out 0.3s;
+	opacity: 0;
+	font-size: 15px;
+	letter-spacing: 2px;
 }
 
 .hobbies_item:hover .hobbies_item_hover {
-    opacity: 1;
-    transform: translateX(0);
+	opacity: 1;
+	transform: translateX(0);
 }
 
 .hobbies_item:hover .item_info em,
 .hobbies_item:hover .item_info span {
-    opacity: 1;
-    transform: translateX(0);
+	opacity: 1;
+	transform: translateX(0);
 }
 
 .hobbies .categories-grid .categories ul li {
-    float: left;
+	float: left;
 }
 
 /* contact 
 =============================================*/
 
 #contact {
-    margin:30px;
+	margin: 30px;
 }
 
-.contact-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width:50%;
-    --ggs:2;
-    margin:0 auto;
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+	--ggs: 2;
+	margin: 0 auto;
 }
 
 .icons {
-    margin-bottom: 10px;
-    box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.15);
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .icons:hover {
-    box-shadow: 0px 16px 30px 0px rgba(90, 91, 95, 0.33);
-    transform: translateY(-5px);
-    cursor: pointer;
-  }
+	margin-bottom: 10px;
+	box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.15);
+	transition: all 0.3s ease-in-out;
+}
+
+.icons:hover {
+	box-shadow: 0px 16px 30px 0px rgba(90, 91, 95, 0.33);
+	transform: translateY(-5px);
+	cursor: pointer;
+}
 
 /* scroll to top 
 =============================================*/
 
 .scroll-to-top {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    right: 10px;
-    bottom: 50px;
-    z-index: 99;
-    border-radius: 10px;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	right: 10px;
+	bottom: 50px;
+	z-index: 99;
+	border-radius: 10px;
 }
 
 .gg-arrow-up-r {
-    --ggs: 2;
-    background-color: transparent;
-    color:#ef9995;
+	--ggs: 2;
+	background-color: transparent;
+	color: #ef9995;
 }
 
 /* Project Page 
 =============================================*/
 
- .name {
-     display: flex;
-     align-items: center;
-     gap: 1rem;
-     font-size: 70px;
-     font-weight: 800;
-     font-family: "Playfair Display", sans-serif;
-     padding: 7px;
- }
+.name {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-size: 70px;
+	font-weight: 800;
+	font-family: 'Playfair Display', sans-serif;
+	padding: 7px;
+}
 
- .name:hover {
-     filter: drop-shadow(10px 10px 5px grey);
-     border-radius: 10px;
-     font-size: 75px;
-     padding: 8px;
- }
+.name:hover {
+	filter: drop-shadow(10px 10px 5px grey);
+	border-radius: 10px;
+	font-size: 75px;
+	padding: 8px;
+}
 
- nav {
-     padding: 10px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 100%;
-     position: absolute;
-     top: 0;
-     left: 0;
- }
+nav {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
- nav1 {
-     padding: 30px;
-     display: flex;
-     align-items: center;
-     justify-content: flex-end;
-     position: absolute;
-     top: 0;
-     left: 0;
- }
+nav1 {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
- nav1 ul {
-     display: flex;
-     justify-content: flex-end;
-     align-self: flex-start;
-     margin: 0;
-     padding: 10px;
- }
+nav1 ul {
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-start;
+	margin: 0;
+	padding: 10px;
+}
 
- .parallax-intro {
-     display: flex;
-     height: 80vh;
-     width: 100%;
-     background-image: url(https://portfolio-xin.s3.amazonaws.com/photos/alaska_mountain.jpg);
-     background-attachment: fixed;
-     background-position: center;
-     background-size: cover;
-     row-gap: 4rem;
-     text-align: center;
- }
+.parallax-intro {
+	display: flex;
+	height: 80vh;
+	width: 100%;
+	background-image: url(https://portfolio-xin.s3.amazonaws.com/photos/alaska_mountain.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	row-gap: 4rem;
+	text-align: center;
+}
 
- .parallax-portfolio {
-     display: flex;
-     height: 60vh;
-     width: 100%;
-     background-image: url(https://portfolio-xin.s3.amazonaws.com/photos/chicagoBuilding.jpg);
-     background-attachment: fixed;
-     background-position: center;
-     background-size: cover;
-     row-gap: 4rem;
-     text-align: center;
- }
+.parallax-portfolio {
+	display: flex;
+	height: 60vh;
+	width: 100%;
+	background-image: url(https://portfolio-xin.s3.amazonaws.com/photos/chicagoBuilding.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	row-gap: 4rem;
+	text-align: center;
+}
 
- /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
 .portfolio_item {
-    position: relative;
+	position: relative;
 }
 
 .banner {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Adjust background color and opacity */
-    color: white;
-    /* Text color */
-    padding: 20px;
-    /* Adjust padding */
-    box-sizing: border-box;
-    transform: translateY(100%);
-    transition: transform 0.3s ease-in-out;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Adjust background color and opacity */
+	color: white;
+	/* Text color */
+	padding: 20px;
+	/* Adjust padding */
+	box-sizing: border-box;
+	transform: translateY(100%);
+	transition: transform 0.3s ease-in-out;
 }
 
 .portfolio_item:hover .banner {
-    transform: translateY(0);
+	transform: translateY(0);
 }
 
- /* .portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
      margin-bottom: 30px;
  }
 
@@ -513,10 +512,10 @@ background-color: var(--color);
      transform: scale(1.2);
  } */
 
- /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
- /* .portfolio-details {
+/* .portfolio-details {
      padding-top: 40px;
  }
 

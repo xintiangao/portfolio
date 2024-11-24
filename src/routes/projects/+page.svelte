@@ -31,6 +31,7 @@ function scrollToTimeline() {
     behavior: 'smooth'
     });
 }
+
 </script>
 
 <nav class="bg-current h-32">
@@ -65,7 +66,7 @@ function scrollToTimeline() {
   <div class="hero-content text-center text-white">
     <div class="max-w-2xl">
       <h1 class="mb-5 text-6xl font-bold">Hello there！</h1>
-      <p class="mb-5 text-left text-lg">This page showcases artifacts that highlight my journey as a Learning Experience Design (LXD) student intern. It includes artifacts designed for a Massive Open Online Course (MOOC) course, <b>Real Estate Development: Building Value in Your Community</b>, during the LXD certificate program. Each artifact is accompanied by a description, my role in its construction, the LXD competencies addressed, and a rationale explaining how those competencies were met.
+      <p class="mb-5 text-left text-lg">This page showcases artifacts that highlight my journey as a Learning Experience Design (LXD) fellow. It includes artifacts designed for a Massive Open Online Course (MOOC) course, <b>Real Estate Development: Building Value in Your Community</b>, during the LXD certificate program. Each artifact is accompanied by a description, my role in its construction, <a href="https://docs.google.com/document/d/1BZV1vVAVQu3h3nXQVjcRpA5ayveVpnFDtTq3zhSWvmk/edit?tab=t.0" target="_blank"><u>the LXD competencies</u></a> addressed, and a rationale explaining how those competencies were met.
       <br><br>During my time at During my time at the Center for Academic Innovation (CAI), I learned essential LXD skills such as collaborating with multiple stakeholders, such as the faculty team and the media team. I received genuine feedbacks from my LXD mentor and was able to develop a meaning insight of into the design process. Through hands-on experience and guided mentorship, I honed my abilities in creating engaging and effective learning experiences. This portfolio serves as a testament to my growth and proficiency in the field of Learning Experience Design.
       </p>
       <button on:click={scrollToTimeline} class="btn btn-primary">Get Started</button>
@@ -81,8 +82,8 @@ function scrollToTimeline() {
 
 <!--Timeline -->
 
-<ol class="items-center sm:flex bg-current p-10">
-    <li class="relative mb-6 sm:mb-0">
+<ol class="items-center sm:flex bg-current pl-10 pr-10 pb-10">
+    <li class="relative sm:mb-0">
         <div class="flex items-center">
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
@@ -96,7 +97,7 @@ function scrollToTimeline() {
         </div>
     </li>
 
-    <li class="relative mb-6 sm:mb-0">
+    <li class="relative sm:mb-0">
         <div class="flex items-center">
     <div class="timeline-middle">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
@@ -109,7 +110,7 @@ function scrollToTimeline() {
             <h5 class=" text-white dark:text-white">Using design resources to brainstorm and script a module outline, (and another module after this)</h5>
         </div>
     </li>
-    <li class="relative mb-6 sm:mb-0">
+    <li class="relative sm:mb-0">
         <div class="flex items-center">
             <div class="timeline-middle">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
@@ -129,8 +130,8 @@ function scrollToTimeline() {
 </ol>
 
 <!--Timeline 2-->
-<ol class="items-center sm:flex bg-current p-10 min-h-fit">
-    <li class="relative mb-6 sm:mb-0">
+<ol class="items-center sm:flex bg-current pl-10 pr-10 pb-10 min-h-fit">
+    <li class="relative sm:mb-0">
         <div class="flex items-center">
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
@@ -140,28 +141,28 @@ function scrollToTimeline() {
         <div class="mt-3 sm:pe-8">
             <h1 class="text-3xl mb-2 text-primary dark:text-primary">Accessibility with graphs</h1>
             <h4 class="block mb-2 text-md font-normal leading-none text-white dark:text-white">March 12, 2024</h4>
-            <h5 class=" text-white dark:text-white">Collaborated with accessibility to adjust tags in Adobe Acrobat for voice over on a graph I made</h5>
+            <h5 class=" text-white dark:text-white">Collaborated with accessibility to adjust tags in Adobe Acrobat for voice over</h5>
         </div>
     </li>
 
-    <li class="relative mb-6 sm:mb-0 top-4">
-        <div class="flex items-center">
-    <div class="timeline-middle">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-    </div>
-            <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+
+    <li class="relative sm:mb-0">
+    <div class="flex items-center">
+        <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
         </div>
+        <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+    </div>
         <div class="mt-3 sm:pe-8">
             <h1 class="text-3xl mb-2 text-primary dark:text-primary">Engaged in XR script writing</h1>
             <h4 class="block mb-2 text-md font-normal leading-none text-white dark:text-white">March 21, 2024</h4>
             <h5 class=" text-white dark:text-white">Engaged in script-writing with the XR team and the LXD team</h5>
         </div>
     </li>
-    
-    <li class="relative mb-6 sm:mb-0">
+    <li class="relative sm:mb-0">
         <div class="flex items-center">
             <div class="timeline-middle">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
         </div>
         <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="12" height="12">
@@ -179,38 +180,53 @@ function scrollToTimeline() {
 
 
 <!--Timeline 3-->
-<ol class="items-center sm:flex bg-current p-10 min-h-fit">
-    <li class="relative mb-6 sm:mb-0">
+<ol class="items-center sm:flex bg-current pl-10 pr-10 pb-10 min-h-fit">
+    <li class="relative sm:mb-0">
         <div class="flex items-center">
     <div class="timeline-middle">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
             <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
         </div>
         <div class="mt-3 sm:pe-8">
             <h1 class="text-3xl mb-2 text-primary dark:text-primary">Student Showcase</h1>
             <h4 class="block mb-2 text-md font-normal leading-none text-white dark:text-white">April 18, 2024</h4>
-            <h5 class=" text-white dark:text-white">Showcase my work along with other students who interned in different positions at CAI</h5>
+            <h5 class=" text-white dark:text-white">Showcase my work along with other students who interned at CAI</h5>
+        </div>
+    </li>
+
+        <li class="relative sm:mb-0">
+        <div class="flex items-center">
+    <div class="timeline-middle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+    </div>
+            <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+        </div>
+        <div class="mt-3 sm:pe-8">
+            <h1 class="text-3xl mb-2 text-primary dark:text-primary">Course Development Assistant</h1>
+            <h4 class="block mb-2 text-md font-normal leading-none text-white dark:text-white">May, 2024 - November, 2024</h4>
+            <h5 class=" text-white dark:text-white">Support the development of a series of short courses titled Navigating Disruption: Generative AI in the Workplace</h5>
         </div>
     </li>
     
-    <li class="relative mb-6 sm:mb-0">
+    <li class="relative sm:mb-0">
         <div class="flex items-center">
             <div class="timeline-middle">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
         </div>
         <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="12" height="12">
             <polygon points="0,0 10,5 0,10" class="fill-white dark:bg-gray-700" />
         </svg>
-
         </div>
+
         <div class="mt-3 sm:pe-8">
-            <h1 class="text-3xl mb-2 text-primary dark:text-primary">What's Next?</h1>
-            <h4 class="block mb-2 text-md font-normal leading-none text-white dark:text-white">Future</h4>
-            <h5 class=" text-white dark:text-white">Learn as a curious explorer and grow as a LXD and a scholar.</h5>
+            <h1 class="text-3xl mb-2 text-primary dark:text-primary">Learning Experience Design Fellow</h1>
+            <h4 class="block mb-2 text-md font-normal leading-none text-white dark:text-white">May, 2024 - Current</h4>
+            <h5 class=" text-white dark:text-white">Design and build for-credit courses using advanced HTML and CSS to develop custom styles and layouts, ensuring a seamless and visually appealing user experience across various LMS</h5>
         </div>
     </li>
+    
 </ol>
 
 

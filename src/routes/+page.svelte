@@ -23,9 +23,9 @@
       <h1 class="size-50 mb-3">About me</h1>
       <div class="flex content-center flex-col text-black">
         <h5>Hello, my name is Xintian Gao. </h5><br />
-        <h5>I graduated from Calvin University in with a degree in Secondary Education and Social studies, with minors in psychology and economics. As if now, I'm enrolled in University of Michigan--Ann Arbor for Design and Technologies in Learning in the Marsal Family School of Education. My career goal is to use technologies and online platforms to provide accessible and language/culture integrated education to learners across the world, as well as provide aid for classroom teachers to better learning and teaching experience.</h5><br />
-        <h5>I'm currently a learning experience design intern at the Center of Academic Innovation, you can see the artifacts I created for a recent MOOC project <a href="/projects"><u>here.</u></a> </h5><br />
-        <h5>Reach out to me via the contact section of the profile! Either scroll to the bottom or click "Contact Me" at the top of the page. </h5><br />
+        <h5>I graduated from Calvin University in with a degree in Secondary Education and Social studies, with minors in psychology and economics. As if now, I'm enrolled in University of Michigan--Ann Arbor for Design and Technologies in Learning in the Marsal Family School of Education. My goal is to use technologies and online platforms to provide accessible and language/culture integrated education to learners across the world, as well as provide aid for classroom teachers to better learning and teaching experience.</h5><br />
+        <h5>I'm currently a learning experience design fellow at the Center of Academic Innovation, you can see the artifacts I created for a MOOC project and for-credit courses on Canvas <a href="/projects"><u>HERE.</u></a> </h5><br />
+        <h5>This online portfolio is created with Html and tailwind CSS in the Svelte framework, with aws for photo storage and retrieval. </h5>
         <br />
         <h5><b>Best Regards,</b></h5>
         <h5><b>Xintian</b></h5>
@@ -79,7 +79,7 @@
             <div class="timeline-event-copy">
                 <h2 class="timeline-event-thumbnail">September 2023 - Current</h2>
               <div class="text-black">
-                <a href="/projects"><h3 href="/projects">Course Design Assistance (Click for LXD Portfolio)</h3></a>
+                <a href="/projects"><h3 href="/projects">Learning Experience Design Fellow</h3></a>
                 <h4>Center of Academic Innovation, University of Michigan—Ann Arbor</h4>
                 <h5>•	Act as a Tutor Team Lead and facilitate tutor observations and evaluation process<br />
                     •	Act as a Leader for Tutor Team Leaders by managing regular meetings and training, as well as administrating CRLA Certification requirements for each tutor<br />
@@ -513,20 +513,14 @@
    <h4 class="flex justify-center">I would love to hear from you! Reach out to me via the channels below and leave a message!</h4>
     <div class="contact-container">
 
-      <div class="icons flex flex-row justify-start mt-5 space-x-7 rounded-md">
-        <a href="mailto:gaoxintian08@gmail.com">
-          <button><i class="gg-mail m-3 h-4"></i></button>
-        </a>
+      <div class="icons flex flex-row justify-start mt-5 space-x-7 p-2 rounded-md">
         <a href="mailto:gaoxintian08@gmail.com">
          <h6>gaoxintian08@gmail.com</h6>
         </a>
       </div>
       
 
-      <div class="icons flex flex-row justify-start mt-5 space-x-7 rounded-md">
-        <a href="https://www.instagram.com/cynthia_gao_">
-          <button><i class="gg-instagram flex m-3 h-4 justify-center align-middle"></i></button>
-        </a>
+      <div class="icons flex flex-row justify-start mt-5 space-x-7 p-2 rounded-md">
         <a href="https://www.instagram.com/cynthia_gao_">
           <h6>cynthia_gao_</h6>
         </a>
